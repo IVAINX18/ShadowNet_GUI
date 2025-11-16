@@ -53,6 +53,7 @@ python gui/main_window.py
 │   └── styles.qss            # Estilos CSS para la interfaz
 ├── models/
 │   ├── best_model.onnx       # Modelo entrenado
+|   ├── best_model.onnx.data  # Data del modelo
 │   └── scaler.pkl            # Escalador de características
 ├── requirements.txt          # Dependencias del proyecto
 └── run_detector.py           # Script principal para ejecutar la aplicación
